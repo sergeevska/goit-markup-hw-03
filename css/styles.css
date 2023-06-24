@@ -1,3 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+  }
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+  
+  .container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-web {
+    margin-right: 76px;
+  }
+  
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-list {
+    padding: 24px 0;
+  }
+  
+  .adress-header {
+    display: flex;
+    gap: 40px;
+  }
+.title-section{
+    padding: 188px 0;
+}
+.ben-container {
+    display: block;
+}
+.title-container {
+    max-width: 496px;
+
+}
+
 /* Common styles */
 :root {
     --main-bg-color: #ffffff;
@@ -23,8 +104,7 @@ h2 {
 }
 /* Header styles */
 
-.header-nav {
-}
+
 .logo-web {
     color: #4D5AE5;
     font-family: 'Raleway';
@@ -99,10 +179,18 @@ background-color: var(--main-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+    margin: 48px auto 0;
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px;
+}
+.button-studio:hover,
+.button-studio:focus {
+  background-color: #404bbf;
 }
 .benefits-section {
     font-family: 'Roboto',sans-serif;
