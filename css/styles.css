@@ -154,6 +154,25 @@ color: #404bbf;
 .adress-list:focus {
     color: #404bbf;
     }
+
+    .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
+.benefits{
+    padding: 120px 0;
+}
+.list-flex {
+    display: flex;
+    gap: 24px;
+}
 /* Main styles */
 .main {
 }
@@ -168,8 +187,12 @@ background-color: var(--main-text-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 0.02em;
     
+}
+.solutions-flex {
+  display: flex;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .button-studio {
     color: var(--main-bg-color);
@@ -205,14 +228,16 @@ background-color: var(--main-text-color);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px; 
 }
 .about-features {
     color: var(--second-text-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 
 }
